@@ -8,7 +8,6 @@ public class Players {
 
     private String name;
     private int totalPlayersMoney;
-    private int bet;
 
     HandCards card = new HandCards();
 
@@ -34,12 +33,14 @@ public class Players {
 
     }
 
-    public int getBet() {
-        return bet;
+    public String getName() {
+        return name;
     }
 
-    public void setBet(int bet) {
-        this.bet = bet;
+    public void setName(String name) {
+        this.name = name;
     }
+
+    
 
 }
